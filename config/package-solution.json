@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-news-ticker-client-side-solution",
+    "id": "6ebe91c2-25bd-4135-bd07-97616b6980a2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "MRS Company Ltd",
+      "websiteUrl": "https://mrscompany.com",
+      "privacyUrl": "https://mrscompany.com/policies",
+      "termsOfUseUrl": "https://mrscompany.com/policies",
+      "mpnId": "65260"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-important-news description"
+      },
+      "longDescription": {
+        "default": "sp-important-news description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Breaking News Ticker Extension",
+        "description": "Provides breaking news ticker at top of SharePoint site",
+        "id": "90dadd5d-e2a2-45c3-b746-da8fa5f0e269",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-important-news.sppkg"
+  }
+}

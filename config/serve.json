@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://lv3n.sharepoint.com/sites/CommSiteTest/SitePages/Home.aspx",
+      "customActions": {
+        "a126dc90-5cf4-416a-b4ae-58c9422e30d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "headerMessage": "Breaking News"
+          }
+        }
+      }
+    },
+    "newsTicker": {
+      "pageUrl": "https://lv3n.sharepoint.com/sites/CommSiteTest/SitePages/Home.aspx",
+      "customActions": {
+        "a126dc90-5cf4-416a-b4ae-58c9422e30d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "headerMessage": "Breaking News"
+          }
+        }
+      }
+    }
+  }
+}
