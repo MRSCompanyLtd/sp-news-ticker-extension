@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "sp-important-news",
+    "libraryId": "6ebe91c2-25bd-4135-bd07-97616b6980a2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-important-news",
+    "solutionShortDescription": "sp-important-news description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
