@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NewsTicker"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="a126dc90-5cf4-416a-b4ae-58c9422e30d6"
+        ClientSideComponentProperties="{&quot;headerMessage&quot;:&quot;Breaking News&quot;}">
+    </CustomAction>
+</Elements>
