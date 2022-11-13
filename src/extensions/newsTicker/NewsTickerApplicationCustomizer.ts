@@ -90,23 +90,6 @@ export default class NewsTickerApplicationCustomizer
           )
 
           ReactDom.render(element, this._topPlaceholder.domElement);
-
-          // if (this._news.length > 0) {
-          //   this._topPlaceholder.domElement.innerHTML = `
-          //     <div class="${styles.app}" id="app">
-          //       <div class="${styles.header}">
-          //         ${topString}
-          //       </div>
-          //       <div class="${styles.wrapper}" id="wrapper">
-          //       ${this._news.map((item: INewsTickerItem) => (
-          //         `<div class="${styles.update}" id="news-update-${item.Id}">
-          //           ${item.Title}
-          //         </div>`
-          //       )).join('')}
-          //       </div>
-          //     </div>
-          //     `;            
-          // }
         }
       }
     }
