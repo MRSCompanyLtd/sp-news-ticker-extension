@@ -4,7 +4,7 @@
 
 Uses SPFx application customizer page placeholders to provide a Breaking News ticker at the top of a SharePoint site.
 
-[picture of the solution in action, if possible]
+![sp-news-ticker](./assets/sp-news-ticker.png)
 
 ## Used SharePoint Framework Version
 
