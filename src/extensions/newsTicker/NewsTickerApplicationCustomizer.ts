@@ -59,6 +59,7 @@ export default class NewsTickerApplicationCustomizer
 
   private _onDispose(): void {
     console.log('Customizer disposed');
+    ReactDom.unmountComponentAtNode(this._topPlaceholder.domElement);
   }
 
   private _renderPlaceholder(): void {
